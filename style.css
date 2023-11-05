@@ -153,7 +153,7 @@ button {
 }
 
 .thumbnail{
-    margin-inline: 1px;
+    margin: 1px;
     height: 11vw;
     position: relative;
     display: flex;
