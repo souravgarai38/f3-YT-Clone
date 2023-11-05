@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="video.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="logo-menu">
+                <img src="./Icons/menu.png" alt="">
+                <a href="index.html">
+                    <img src="./Icons/Youtube-Logo.png" alt="">
+                </a>
+            </div>
+            <div class="middle-navbar">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search" class="search-input" value="">
+                    <button class="search-btn">
+                        <img src="./Icons/search.png" alt="">
+                    </button>
+                </div>
+                <div class="voice-search">
+                    <img src="./Icons/voice-search.png" alt="">
+                </div>
+            </div>
+            <div class="profile-section">
+                <img src="./Icons/create-video.png" alt="">
+                <img src="./Icons/video-gallery.png" alt="">
+                <img src="./Icons/notifications.png" alt="">
+                <img src="./Icons/profile.png" alt="">
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="left-section">
+                <div class="player" id="player">
+                    <!-- <img src="./Icons/thumbnail.png" alt=""> -->
+                </div>
+
+                <div class="player-details">
+                    <p class="player-title">Blind Woodturner: Turning passion into fine art</p>
+                    <div class="player-stat">
+                        <p class="stat-left">576,969 views . Oct 8, 2021</p>
+                        <div class="stat-right">
+                            <div class="stat-card">
+                                <img src="./Icons/liked-videos-empty.png" alt="">
+                                <span class="likes">1.7 K</span>
+                            </div>
+                            <div class="stat-card">
+                                <img src="./Icons/disliked-videos-empty.png" alt="">
+                            </div>
+                            <div class="stat-card">
+                                <img src="./Icons/share.png" alt="">
+                                SHARE
+                            </div>
+                            <div class="stat-card">
+                                <img src="./Icons/save-video.png" alt="">
+                                SAVE
+                            </div>
+                            <div class="stat-card">
+                                <img src="./Icons/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description-box">
+                    <div class="channel">
+                        <div class="channel-left">
+                            <img src="./Icons/channel-logo.png" alt="">
+                            <div class="channel-details">
+                                <p class="channel-title">Marcus Levin</p>
+                                <p class="subscribers">1.2M Subscribers</p>
+                            </div>
+                        </div>
+                        <div class="subscribe-btn">SUBSCRIBE</div>
+                    </div>
+                    <div class="description">
+                        <p>Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he’s a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country.</p>
+
+                        <div class="description-more">SHOW MORE</div>
+                        <div class="description-less d-none">SHOW LESS</div>
+                    </div>
+                </div>
+
+                <div class="comment-header">
+                    <div class="comments">286 Comments</div>
+                    <div class="sortby">
+                        <img src="./Icons/sortby.png" alt="">
+                        <strong>SORT BY</strong>
+                    </div>
+                </div>
+
+                <div class="comment-input-box">
+                    <img src="./Icons/profile.png" alt="">
+                    <input type="text" class="comment-input" placeholder="Add a public comment...">
+                </div>
+
+                <div class="comment-box">
+                    <!-- <div class="comment-card">
+                        <img src="./Icons/subscriptions-user.png" alt="">
+                        <div class="comment-content">
+                            <div class="comment-writer-time">
+                                <b class="writer-name">James Gouse</b>
+                                <p class="time">8 hours ago</p>
+                            </div>
+                            <div class="comment-text">
+                                Wow, world is full of different skills
+                            </div>
+                            <div class="comment-stat">
+                                <p class="like-count">
+                                    <img src="./Icons/liked-videos-empty.png" alt="">
+                                    <span>3</span>
+                                </p>
+                                <p class="dislike-count">
+                                    <img src="./Icons/disliked-videos-empty.png" alt="">
+                                    <span>1</span>
+                                </p>
+                                <p class="reply">
+                                    2 REPLIES
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-card">
+                        <img src="./Icons/subscriptions-user.png" alt="">
+                        <div class="comment-content">
+                            <div class="comment-writer-time">
+                                <b class="writer-name">James Gouse</b>
+                                <p class="time">8 hours ago</p>
+                            </div>
+                            <div class="comment-text">
+                                Wow, world is full of different skills
+                            </div>
+                            <div class="comment-stat">
+                                <p class="like-count">
+                                    <img src="./Icons/liked-videos-empty.png" alt="">
+                                    <span>3</span>
+                                </p>
+                                <p class="dislike-count">
+                                    <img src="./Icons/disliked-videos-empty.png" alt="">
+                                    <span>1</span>
+                                </p>
+                                <p class="reply">
+                                    2 REPLIES
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="btn">
+                    <button>All</button>
+                    <button>From Your Search</button>
+                </div>
+                <div class="video-list">
+                    <!-- <div class="video-card">
+                        <div class="thumbnail">
+                            <img src="./Icons/thumbnail.png" alt="">
+                            <p class="duration">02:50</p>
+                        </div>
+                        <div class="video-details">
+                            <p>Ep 6: Lorem ipsum dolor sit amet.</p>
+                            <div class="video-name-views">
+                                <p class="ch-name">James Gouse</p>
+                                <p class="views">1M views . 3 years ago</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="video.js"></script>
+</body>
+</html>
