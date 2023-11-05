@@ -298,6 +298,7 @@ button {
 }
 
 .thumbnail{
+    margin: 1px;
     position: relative;
     display: flex;
     border-radius: .3rem;
