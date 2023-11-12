@@ -1,6 +1,6 @@
 const baseURL = "https://www.googleapis.com/youtube/v3";
-// const apiKey = "AIzaSyB0Jx1pX_H6HytRxjTEnKOGdRM1ylsdqB8"; //api 1
-const apiKey = "AIzaSyCkspY3StTvvpiQ0kwA4kBUzRgLLAQQl9U"; //api 2
+const apiKey = "AIzaSyB0Jx1pX_H6HytRxjTEnKOGdRM1ylsdqB8"; //api 1
+// const apiKey = "AIzaSyCkspY3StTvvpiQ0kwA4kBUzRgLLAQQl9U"; //api 2
 
 
 
